@@ -1,13 +1,13 @@
 import React from 'react';
 import CarCard from '../components/CarCard';
 
-// Import all images
 import swift from '../assets/images/swift.jpg';
 import brezza from '../assets/images/brezza.jpg';
 import innova from '../assets/images/innova.jpg';
 import fortuner from '../assets/images/fortuner.jpg';
 import alto from '../assets/images/alto.jpg';
 import wagonr from '../assets/images/wagonr.jpg';
+
 
 const allCars = [
     { title: 'Swift', desc: 'Fuel-efficient city hatchback.', image: swift, price: 1200 },
@@ -19,6 +19,7 @@ const allCars = [
 ];
 
 export default function Home() {
+
     return (
         <section className="products">
             <h2>All Available Cars</h2>
